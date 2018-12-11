@@ -1,6 +1,7 @@
 <?php
 
-$amount = getopt("a:");
+$params = getopt("a:");
+$amount = $params["a"];
 
 $notes[500] = 0;
 $notes[200] = 0;
