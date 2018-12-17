@@ -4,7 +4,7 @@ $arr = [
 3, 5, 7, 2, 6, 8, 1, 9
 ];
 
-function Bubblesort($a) {
+function bubblesort($a) {
     if (gettype($a) == "array") {
         $length = count($a);
         for ($i = 0; $i < $length; $i++) {
@@ -22,4 +22,4 @@ function Bubblesort($a) {
     }
 }
 
-print_r(Bubblesort($arr));
+print_r(bubblesort($arr));
