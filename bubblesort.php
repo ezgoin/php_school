@@ -7,7 +7,7 @@ $arr = [
 function bubblesort($a) {
     if (gettype($a) == "array") {
         $length = count($a);
-        for ($i = 0; $i < $length; $i++) {
+        for ($i = 0; $i < $length - 1; $i++) {
             for ($j = $length - 1; $j > $i; $j--) {
                 if ($a[$j] < $a[$j-1]) {
                     $x = $a[$j];
